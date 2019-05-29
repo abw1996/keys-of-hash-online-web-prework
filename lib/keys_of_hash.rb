@@ -5,7 +5,6 @@ class Hash
     self.each do |key, value|
       if arguments.include?(value)
         returning_array.push(key)
-        binding.pry
       end
     end
   end

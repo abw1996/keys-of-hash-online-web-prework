@@ -9,5 +9,6 @@ class Hash
       end
     end
   end
+  returning_array
 end
 

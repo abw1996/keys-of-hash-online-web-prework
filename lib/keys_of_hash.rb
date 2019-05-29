@@ -7,7 +7,7 @@ class Hash
         returning_array.push(key)
       end
     end
+    returning_array
   end
-  returning_array
 end
 

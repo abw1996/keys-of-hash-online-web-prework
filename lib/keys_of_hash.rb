@@ -1,5 +1,11 @@
 class Hash
   def keys_of(arguments)
-      # code goes here
+      returning_array = []
+      Hash.each do |key, value|
+        if arguments.include? value
+          returning_array.push(key)
+        end 
+      end 
+    end 
   end
 end
